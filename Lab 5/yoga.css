@@ -5,7 +5,7 @@ body {
 }
 header {
     background-color: #9BC1C2;
-    background-image: url(lilyheader.jpg);
+    background-image: url(images/lilyheader.jpg);
     background-position: right;
     background-repeat: no-repeat;
     height: 150px;
@@ -23,7 +23,6 @@ nav a{
 }
 footer {
     background-color: #9bc1c2;
-    background-position: bottom;
     font-size: small;
     font-style:italic;
     text-align: center;
