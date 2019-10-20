@@ -1,0 +1,39 @@
+.footer {
+    background-color: #add8e6;
+    font: Arial;
+    color: #00008b;
+    padding: 10px;
+    outline-width: thin;
+    outline-style: dashed;
+    outline-color: #00008b;
+
+}
+#notice {
+    text-align: center;
+    width: 80% 
+}
+.headline {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    color: #b8db70;
+}
+h1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    font: sans-serif;
+    font-size: 4em;
+    text-shadow: 2px 2px #02c7b6;
+}
+#blurb{
+    background-color: #ffffff;
+    width: 80%;
+    font: Arial;
+    font-size: small;
+    text-shadow: 1px 1px #0000ff;
+    color: #ff0000;
+}
+body {
+    background-image: linear-gradient(#000000,#0000cd);
+}
+#content {
+    opacity:70%;
+}
