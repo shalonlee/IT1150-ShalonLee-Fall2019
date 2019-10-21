@@ -1,0 +1,62 @@
+/* element, #id, .class */
+body {
+    background-color: #3F2860;
+    text-decoration: none;
+    color: #3F2860;
+    font-family: Verdana, Arial,sans-serif;
+}
+nav {
+    font-weight: bold;
+    background-color: #DBE8E9;
+    text-align: center;
+    padding: 1em;
+}
+header {
+    background-color: #9BC1C2;
+    background-image: url(images/lilyheader.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+#wrapper {
+    background-color: #F5F5F5;
+    color: #3F2860;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+    min-width: 420px,  
+}
+main {
+    padding: 0 30px 30px 30px;
+    display: block;
+}
+#mathero {
+    height: 300px;
+    background-image: url(images/yogamat.jpg);
+    background-size: 100% 100%;
+}
+#loungehero {
+    height: 300px;
+    background-image: url(images/yogalounge.jpg);
+    background-repeat: none;
+}
+h1 {
+    padding-top: 50px;
+    padding-left: 2em;
+   }
+nav a{
+    text-decoration:none;
+}
+footer {
+    background-color: #9bc1c2;
+    font-size: small;
+    font-style:italic;
+    text-align: center;
+    padding: 1em;
+}
+li {
+    font-size: 90%;
+}
+img {
+    padding: 2em;
+}
