@@ -1,0 +1,29 @@
+/* REFERENCE: element, #id, .class */
+
+/* EXERCISE 1 */
+#idOne {
+    background-color: #D3D3D3;
+    position: fixed;
+    font-weight: bold;
+    padding: 10px;
+}
+/*EXERCISE 2*/
+#idTwo {
+    float: left;
+    background-color: #F5F5DC;
+    font-family: Verdana, sans-serif;
+    padding: 20px;
+}
+/* EXERCISE 3 */
+#idThree {
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 40px;
+    border-style: solid;
+}
+/* EXERCISE 4 */
+.classOne {
+    background-color: #90EE90;
+    position: relative;
+    padding-left: 15px;
+}
