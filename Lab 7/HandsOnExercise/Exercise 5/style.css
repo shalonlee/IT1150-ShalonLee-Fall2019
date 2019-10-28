@@ -39,12 +39,20 @@
   
 nav {
     float: left;
-    margin-left: 0px;
+    margin-left: 0;
     width: 200px;
-    height: 620px; 
     padding: 20px;
-    background: #ff3b3b;  
     padding-bottom: 20px;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    border-style: outset;
+    border-width: 2px;
+    background: #ff3b3b;
+    border-color: #fffa8c;
 }
 
 h1 {
@@ -64,9 +72,15 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: red;
-    color: white;
+    color:  #ffffff;
     text-align: center; 
 }
 p {
     column-count: 2;
+}
+#wrapper {
+  background-color: #F5F5F5;
+  color: #000000;
+  margin-right: auto;
+  margin-left: auto; 
 }
