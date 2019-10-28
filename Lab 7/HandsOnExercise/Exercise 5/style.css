@@ -1,6 +1,8 @@
 /* REFERENCE: element, #id, .class */
 
-  
+  *{
+      box-sizing: border-box;
+  }
   body {
     font-family: Helvetica, sans-serif;
     background-color:#fffa8c;
@@ -51,7 +53,7 @@ h1 {
 }
 #pokemonimage {
     background-position: center;
-    height: 490px;
+    height: 400px;
     background-image: url(images/pokemon1.jpg);
     background-size: auto;
     background-repeat: no-repeat;
