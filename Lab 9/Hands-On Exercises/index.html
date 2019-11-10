@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hands-On Exercises</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+       <header>
+       <h1>Hands-On Exercises</h1>
+       </header>
+<form action="/action_page.php" method="get">
+    Username:<br>
+    <input type="text" name="username" id="username" required="required" maxlength="30"><br>
+    Password:<br>
+    <input type="password" name="password" id="password" required="required" maxlength="16"><br>
+
+    <input type="submit" value="Submit">
+    </form>
+<br>
+What is your favorite date of the week? Vote below.<br>
+<input type="radio" name="Monday" value="Monday">Monday<br>
+<input type="radio" name="Tuesday" value="Tuesday">Tuesday<br>
+<input type="radio" name="Wednesday" value="Wednesday">Wednesday<br>
+<input type="radio" name="Thursday" value="Thursday">Thusday<br>
+<input type="radio" name="Friday" value="Friday">Friday<br>
+<input type="radio" name="Saturday" value="Saturday">Saturday<br>
+<input type="radio" name="Sunday" value="Sunday">Sunday<br>
+<br>
+<select size="1" name="favsocialmedia" id="favsocialmedia">
+    <option>Choose your favorite Social Media</option>
+    <option value="instagram">Instagram</option>
+    <option value="facebook">Facebook</option>
+    <option value="myspace">MySpace</option>
+    <option value="Twitter">Twitter</option>
+</select>
+<br><br>
+<fieldset>
+    <legend>Billing Address</legend>
+    <label>Address Line 1:<input type="text" name="AddressLine1" id="AddressLine1" size="54"></label><br><br>
+    <label>Address Line 2:<input type="text" name="AddressLine2" id="AddressLine2" size="54"></label><br><br>
+    <label>City:<input type="text" name="city" id="city"></label>
+    <label>State:<input type="text" name="state" id="state" maxlenth="2" size="5"></label>
+    <label>Zip Code: <input type="text" name="zipcode" id="zipcode" maxlength="5" size="5"></label>
+    
+</fieldset>
+<br><br>
+<input type="hidden" id="userid" name="userid" value="6678">
+<br><br>
+<footer>
+    Copyright &copy; 2019 TITLE<br>
+   <a href="mailto:shalon@lee.com">shalon@lee.com</a>
+</footer>
+
+</body>
+</html>
