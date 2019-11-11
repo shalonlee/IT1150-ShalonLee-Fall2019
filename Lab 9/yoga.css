@@ -86,6 +86,25 @@ a:hover {
 .floatleft {
     float: left;
 }
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 10em;
+    padding-right: 1em;
+}
+input, textarea{
+    display: block;
+    margin-bottom: 2em;
+}
+form{
+    padding: 3em;
+}
+submit{
+margin-left: 12em;
+}
+
+
 
 /* DESKTOP DISPLAY */
 @media only screen and (max-width: 90em){
@@ -188,5 +207,12 @@ margin: 0;
 }
 #desktop {
     display: none;
+}
+label{
+    float: none;
+    text-align: left;
+}
+input[type="submit"]{
+    margin-left: 0;
 }
 }
